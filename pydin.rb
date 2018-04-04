@@ -123,3 +123,4 @@ if failed_dependencies.size != 0
 else
 	puts "\nAll dependencies installed successfully"
 end
+
