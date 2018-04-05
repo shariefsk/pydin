@@ -16,9 +16,9 @@ Signal.trap("INT") do
 	shut_down
 end
 
-Signal.trap("TERM") {
+Signal.trap("TERM") do
   shut_down
-}
+end
 
 def shut_down
   puts "\nExiting installation gracefully. Bye!"
